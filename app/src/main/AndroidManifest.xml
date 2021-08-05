@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.suprithag.hexadiccalci">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HexadicCalci">
+        <activity android:name=".UnitWeight"></activity>
+        <activity android:name=".UnitTemperature" />
+        <activity android:name=".UnitLength" />
+        <activity android:name=".UnitConverter" />
+        <activity android:name=".UnitArea" />
+        <activity android:name=".StandardCal" />
+        <activity android:name=".ScientificCal" />
+        <activity android:name=".IncomeActivity" />
+        <activity android:name=".History" />
+        <activity android:name=".EMI" />
+        <activity android:name=".ELEC" />
+        <activity android:name=".DashBoard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,2 @@
+rootProject.name = "Hexadic Calci"
+include ':app'
